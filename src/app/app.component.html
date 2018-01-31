@@ -5,7 +5,7 @@
   </div>
 
   <ul>
-    <li *ngFor="let item of items; let ind=index">{{ item }}
+    <li *ngFor="let item of items; let ind=index">{{ item | Capitalize }}
       <span (click)="removeItem(ind)">x</span>
     </li>
   </ul>

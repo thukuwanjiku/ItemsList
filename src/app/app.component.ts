@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   
-	items = ['First'];
+	items = ['first item'];
 	newItem = "";
 
 	addItem(item){
